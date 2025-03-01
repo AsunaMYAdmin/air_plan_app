@@ -7,6 +7,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Route {
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
