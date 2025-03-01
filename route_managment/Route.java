@@ -1,4 +1,4 @@
-package me.asunamyadmin.air_plan_microservice;
+package me.asunamyadmin.air_plan_microservice.route_managment;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Route {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
